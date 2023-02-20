@@ -128,8 +128,8 @@ h6 {
 .zoom {
   padding: 50px;
   transition: transform .2s;
-  width: 500px;
-  height: 500px;
+   max-width: 800px;
+  min-height: 400px;
   margin: 1px;
   /* border: 2px solid black; add border property */
 }
