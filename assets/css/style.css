@@ -340,12 +340,14 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+ width: 100%;
   padding-left: 250px;
   height: 100vh;
   background: url("/assets/img/backg.jpeg") top right no-repeat;
   background-size: cover;
-  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 @media (min-width: 992px) {
